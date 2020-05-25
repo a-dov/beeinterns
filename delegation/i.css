@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cube-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: green;
+}
+
+.link {
+    font-size: 55px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.red {
+    background-color: red;
+}
