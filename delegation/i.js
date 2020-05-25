@@ -1,7 +1,6 @@
 function handleLinkClick(event) {
-  // event.preventDefault();
-  // event.stopPropagation();
   console.log(event.target);
+
   if (event.target.classList.contains('cube')) {
     event.target.classList.toggle("red");
   }
