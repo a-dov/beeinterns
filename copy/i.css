@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.kek {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mousemove {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    font-size: 50px;
+}

@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.kek {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mouseover {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
