@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://www.film.ru/sites/default/files/styles/epsa_1024x450/public/13445501-831308.jpg");
+}
+
+.cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #4e7097;
+}
+
+.link {
+    font-size: 55px;
+    text-decoration: none;
+    color: #fff;
+}

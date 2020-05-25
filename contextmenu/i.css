@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.kek {
+.container {
     width: 100vw;
     height: 100vh;
     background-color: aquamarine;
@@ -11,7 +11,7 @@ body {
     align-items: center;
 }
 
-.mouseover {
+.cube {
     width: 200px;
     height: 200px;
     background-color: red;
