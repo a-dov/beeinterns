@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+
+  <link rel="stylesheet" href="./createEvent.css">
+<span>
+<h1>Метод createEvent ()</h1>
+
+<p>Метод createEvent () позволяет имитировать любое событие.</p>
+
+  <p>В этом примере красный div будет получать новую звезду каждый раз, когда вы наводите на нее курсор мыши:</p>
+</span>
+
+
+<div onmouseover="this.innerHTML += '*';" id="myDiv">*</div>
+
+<br>
+<button onclick="myFunction(event)"> Симуляция Mouse Over</button>
+
+<script src="./createEvent.js"></script>
+</body>
+</html>
