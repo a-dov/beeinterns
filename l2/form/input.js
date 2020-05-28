@@ -10,11 +10,11 @@
 // radio1.addEventListener('change', (event) => {
 //   textarea.value = event.target.value;
 // });
-//
+// //
 // radio2.addEventListener('change', (event) => {
 //   textarea.value = event.target.value;
 // });
-//
+// //
 // radio3.addEventListener('change', (event) => {
 //   textarea.value = event.target.value;
 // });

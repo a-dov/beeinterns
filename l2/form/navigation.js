@@ -2,7 +2,7 @@ const ael = (el, type, f) => {
   el.addEventListener(type, f)
 };
 
-console.log(document.forms);
+// console.log(document.forms);
 
 
 
@@ -22,8 +22,8 @@ console.log(document.forms);
 
 
 // // get exact form
-// console.log(document.forms.form);
-// console.log(document.forms[0]);
+// console.log(document.forms.form1);
+// console.log(document.forms[1]);
 
 
 
@@ -46,7 +46,7 @@ console.log(document.forms);
 
 
 // //if it id
-// console.log(form1);
+// console.log(form);
 
 
 
@@ -70,7 +70,8 @@ console.log(document.forms);
 
 
 // // forms with the same name
-// console.log(document.forms.ba);
+// console.log(document.forms);
+// console.log(document.forms.kek); // first form
 
 
 
@@ -118,10 +119,12 @@ console.log(document.forms);
 
 // // exact element
 // console.log(document.forms.form1.elements.text);
+
 // // or we can by form id
 // console.log(form1.text);
 
 
+// console.log(form1.text); // same name works for elements
 
 
 
@@ -177,13 +180,15 @@ console.log(document.forms);
 // ael(number, 'click', () => {
 //   number.value = 77;
 // });
-//
+
 // ael(checkbox, 'click', () => {
 //   checkbox.checked = false; // :))
 // });
 //
 // ael(button, 'click', () => {
-//   select.options[1].selected = true;
+//   // console.log(select.options[1].selected);
+//   // select.options[1].selected = true;
+//   select.value = 'pek'
 // });
 //
 // ael(button, 'click', () => {

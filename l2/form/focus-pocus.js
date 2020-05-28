@@ -10,20 +10,20 @@ const textInput = text;
 
 // focus/blur NOT bubbling
 
-
+//
 // textInput.addEventListener('focus', (event) => {
 //   event.preventDefault(); // cancelable: false - so it won't work
 //   console.log('hurraaaay!');
 //   console.log(event)
+//   // alert('ba'); // make blur with help of alert
 // });
-//
+// //
 // textInput.addEventListener('blur', (event) => {
 //   console.log('not hurraaaay!');
 //   console.log(event)
 // });
 
 
-// alert('ba'); // make blur with help of alert
 
 
 
@@ -92,4 +92,10 @@ const textInput = text;
 //     const index = getKeyByValue(form1.elements, textInput);
 //     form1.elements[+index + 1].focus();
 //   }
+// });
+//
+//
+//
+// button.addEventListener('click', () => {
+//   textInput.focus();
 // });
