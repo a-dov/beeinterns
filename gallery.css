@@ -19,7 +19,6 @@ div.desc {
 * {
     box-sizing: border-box;
 }
-
 .responsive {
     padding: 0 6px;
     float: left;
@@ -39,6 +38,11 @@ div.desc {
     }
 }
 
+/*@media only screen and (max-width: 320px) {*/
+/*    .responsive {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
 .clearfix:after {
     content: "";
     display: table;
