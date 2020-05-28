@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(32, 252, 255, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    height: 900px;
+    background-color: #6d95cb;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form:valid {
+    background-color: #6d95cb;
+}
+
+.form:invalid {
+    background-color: red;
+}
