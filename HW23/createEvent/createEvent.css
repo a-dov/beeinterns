@@ -1,0 +1,21 @@
+div {
+  font-size: 100px;
+  padding:50px;
+  background-color: Tomato;
+  color: white;
+
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 88px;
+}
+button {
+  color: red;
+  font-size: xx-large;
+  display: flex;
+  margin: 0 auto;
+  outline: green 2px solid;
+  text-transform: uppercase;
+}
